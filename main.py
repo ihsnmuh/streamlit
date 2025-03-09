@@ -6,7 +6,7 @@ from lib.task_manager import TasksManager
 if "task_manager" not in st.session_state:
     st.session_state.task_manager = TasksManager("My Tasks")
 
-st.title("📋 List Task Kamu")
+st.title("📋 List Task Anda")
 
 # Input untuk menambahkan task baru
 new_title = st.text_input("Judul Task:")
